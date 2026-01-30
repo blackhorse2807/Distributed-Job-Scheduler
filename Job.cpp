@@ -18,3 +18,7 @@ void Job::setState(JobState newState) {
 void Job::incrementRetry() {
     retryCount++;
 }
+void setScheduledTime(std::time_t time) {
+    scheduledTime = time;
+}
+
